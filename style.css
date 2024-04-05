@@ -8,13 +8,12 @@ html {
 body {
     height: 100vh;
     margin: 0;
-    overflow: hidden;
     font-family:'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
 }
 
-a {
+a, .heroinfo {
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
@@ -29,11 +28,56 @@ li {
     color: #F9FAF8;
 }
 
-.header, .footer, .hero {
+.cont, .footer{
     background-color: #1F2937;
 }
 
 .header {
     display: flex;
+    flex-shrink: 1;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.links {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+.heroall {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    width: 450px
+}
+
+.signup1 {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 8px;
+    padding: 8px 2em;
+    outline: none;
+    border: none;
+    display: flex;
+    align-self: flex-start;   
+}
+
+.herohead {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
 }
 
