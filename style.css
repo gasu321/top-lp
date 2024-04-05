@@ -36,7 +36,7 @@ li {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 16px;
     max-width: 960px;
     margin: 0 auto;
 }
@@ -53,19 +53,20 @@ li {
     justify-content: space-between;
     align-items: center;
     max-width: 960px;
-    padding: 10px;
+    padding: 16px;
+    gap: 24px;
     margin: 0 auto;
 }
 
 .hero {
     display: flex;
     flex-direction: column;
-    gap: 6px;
-    width: 450px
+    gap: 8px;
+    max-width: 480px
 }
 
 .heroimg {
-    margin: 24px 0;
+    margin: 48px 0;
 }
 
 .signup1 {
@@ -91,5 +92,16 @@ li {
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
+}
+
+.mid {
+    display: flex;
+
+}
+
+.midhead {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 800;
 }
 
