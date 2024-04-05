@@ -71,14 +71,20 @@ li {
 .signup1 {
     color: #F9FAF8;
     background-color: #3882F6;
+    cursor: pointer;
+    transition-duration: 0.4s;
     font-size: 16px;
     font-weight: 700;
     border-radius: 8px;
-    padding: 8px 2em;
+    padding: 10px 24px;
     outline: none;
     border: none;
     display: flex;
     align-self: flex-start;   
+}
+
+.signup1:hover {
+    background-color: rgb(42, 141, 255)   
 }
 
 .herohead {
