@@ -11,6 +11,7 @@ body {
     font-family:'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
+    flex: 1 0 0;
 }
 
 a, .heroinfo {
@@ -102,6 +103,7 @@ li {
     flex-wrap: wrap;
     max-width: 960px;
     margin: 0 auto;
+    padding-bottom: 48px;
     text-align: center;
     color: #1F2937;
 }
@@ -120,7 +122,36 @@ li {
     font-size: 36px;
     font-weight: 800;
     text-align: center;
-    padding: 24px;
-    margin: 24px;
+    padding: 48px;
 }
 
+.cont3 {
+    background-color: #E5E7EB;
+    padding: 48px;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 480px;
+    margin: 0 auto;
+}
+
+.cite {
+    font-size: 18px;
+    font-weight: 700;
+    align-self: flex-end;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    text-align: center;
+    text-wrap: wrap;
+    max-width: 480px;
+    margin: 0;
+    padding: 0;
+}
