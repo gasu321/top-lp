@@ -181,13 +181,13 @@ li {
 }
 
 .ctahead {
-    font-size: 18px;
+    font-size: 24px;
     color: #F9FAF8;
     font-weight: 700;
 }
 
 .ctainfo {
-    font-size: 12px;
+    font-size: 18px;
     color: #E5E7EB;
 }
 
@@ -196,7 +196,7 @@ li {
     color: #F9FAF8;
     cursor: pointer;
     transition-duration: 0.4s;
-    font-size: 12px;
+    font-size: 18px;
     font-weight: 700;
     border-radius: 6px;
     padding: 6px 24px;
@@ -204,4 +204,14 @@ li {
     border: 2px solid #F9FAF8;
     display: flex;
     flex-shrink: 0;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
 }
