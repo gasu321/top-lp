@@ -85,7 +85,7 @@ li {
     align-self: flex-start;   
 }
 
-.signup1:hover {
+.signup1:hover, .signup2:hover {
     background-color: rgb(42, 141, 255)   
 }
 
@@ -154,4 +154,54 @@ li {
     max-width: 480px;
     margin: 0;
     padding: 0;
+}
+
+.cont4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 48px;
+}
+
+.ctacontainer {
+    background-color: #3882F6;
+    padding: 36px 48px;
+    max-width: 960px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    flex-shrink: 0
+}
+
+.cta {
+    display: flex;
+    flex-direction: column;
+}
+
+.ctahead {
+    font-size: 18px;
+    color: #F9FAF8;
+    font-weight: 700;
+}
+
+.ctainfo {
+    font-size: 12px;
+    color: #E5E7EB;
+}
+
+.signup2 {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 6px;
+    padding: 6px 24px;
+    outline: none;
+    border: 2px solid #F9FAF8;
+    display: flex;
+    flex-shrink: 0;
 }
